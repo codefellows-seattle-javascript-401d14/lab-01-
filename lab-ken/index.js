@@ -5,7 +5,6 @@ const arithmetic = require('./lib/arithmetic.js');
 
 console.log(greet('ken'));
 
-
 console.log(arithmetic.add('k',2));
 console.log(arithmetic.add(5,'k'));
 console.log(arithmetic.add(7,7));

@@ -7,5 +7,4 @@ module.exports = function greet (name){
   else{
     return null;
   }
-
 };

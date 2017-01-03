@@ -9,8 +9,8 @@ describe ('testing module greet.js', function(){
   it('should return "hello world"', function(){
     expect(greet('world')).to.equal('Hello, world');
   });
-  it ('should return null if value is not a string', function(){
+  it('should return null if if using non-strings', function(){
     expect(greet()).to.be.a('string');
 
+  )}
   })
-})
