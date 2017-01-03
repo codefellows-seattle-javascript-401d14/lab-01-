@@ -1,0 +1,26 @@
+{
+  "name": "lab-01-modular-patterns",
+  "version": "0.0.1",
+  "description": "lab-gnoevil",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnoevil/lab-01-modular-patterns.git"
+  },
+  "author": "geno.guerrero@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gnoevil/lab-01-modular-patterns/issues"
+  },
+  "homepage": "https://github.com/gnoevil/lab-01-modular-patterns#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
