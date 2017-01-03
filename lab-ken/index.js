@@ -3,7 +3,7 @@
 const greet = require ('./lib/greet.js');
 const arithmetic = require('./lib/arithmetic.js');
 
-console.log(greet('ken'));
+console.log(greet(2));
 
 console.log(arithmetic.add('k',2));
 console.log(arithmetic.add(5,'k'));
