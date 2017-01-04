@@ -1,6 +1,6 @@
 'use strict';
-const arithmetic = require('../lib/arithmetic.js');
 const expect = require('chai').expect;
+const arithmetic = require('../lib/arithmetic.js');
 
 describe ('this will test arithmetic.js', function(){
   it('this should add two numbers', function(){

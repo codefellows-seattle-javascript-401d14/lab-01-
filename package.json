@@ -21,6 +21,10 @@
   "homepage": "https://github.com/devonhackley/lab-01-modular-patterns#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^3.0.1",
     "mocha": "^3.2.0"
   }
 }
