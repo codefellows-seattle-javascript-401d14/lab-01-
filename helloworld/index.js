@@ -4,7 +4,7 @@ const greet = require('./lib/greet.js');
 const arithmetic = require('./lib/arithmetic.js');
 
 
-console.log(greet('slug'));
+console.log(greet('bangarang'));
 
 console.log(arithmetic.add(3,4));
 console.log(arithmetic.add(7,0));

@@ -11,8 +11,8 @@ describe('testing module greet.js', function(){
       expect(greet('world')).to.equal('hello world');
     });
 
-    it('should return "hello slug"', function(){
-      expect(greet('slug')).to.equal('hello slug');
+    it('should return "hello bangarang"', function(){
+      expect(greet('bangarang')).to.equal('hello bangarang');
     });
   });
 

@@ -4,12 +4,17 @@
   "description": "node code for lab",
   "main": "hello.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/eslint/bin/eslint.js",
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "author": "thomasxmartinez@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^3.0.1",
     "mocha": "^3.2.0"
   }
 }
