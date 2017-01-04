@@ -2,7 +2,7 @@
   "name": "lab-ken",
   "version": "1.0.0",
   "description": "first lab for JS401",
-  "main": "index.js",
+  "main": "hello.js",
   "directories": {
     "test": "test"
   },
