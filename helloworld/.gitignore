@@ -116,4 +116,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+#lib/goodbye.js
+
 # End of https://www.gitignore.io/api/li,linux,node,osx,windows
