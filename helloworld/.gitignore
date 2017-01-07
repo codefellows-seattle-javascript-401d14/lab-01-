@@ -117,5 +117,6 @@ $RECYCLE.BIN/
 *.lnk
 
 #lib/goodbye.js
+#goodbye-test.js
 
 # End of https://www.gitignore.io/api/li,linux,node,osx,windows

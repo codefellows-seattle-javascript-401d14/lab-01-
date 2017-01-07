@@ -3,7 +3,10 @@
 const greet = require('./lib/greet.js');
 const arithmetic = require('./lib/arithmetic.js');
 
-
+module.exports = function(){
+  var name = process.argv[2] || 'bangarang';
+  return greet(name);
+};
 console.log(greet('bangarang'));
 
 console.log(arithmetic.add(3,4));

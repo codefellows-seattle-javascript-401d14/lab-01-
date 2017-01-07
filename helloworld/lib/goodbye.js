@@ -3,7 +3,7 @@
 const goodbye = module.exports = {};
 
 goodbye.cya = function(name){
-  return 'sea ya later ' + name;
+  return 'see ya later ' + name;
 };
 
 goodbye.tata = function(name){
