@@ -86,3 +86,4 @@ ISC
 
 ### Documentation
 * Javascript is generally pass by value, but when a variable refers to an object (including arrays), the value becomes reference to the object.Changing the value of a variable points the variable to a new object. However, changing a property of an object referenced by a variable does change the underlying object.
+* Lab 1 In this lab we don’t just want to use globals, but declare them. We do this by exporting them, using the anonymous function’s return value. 
