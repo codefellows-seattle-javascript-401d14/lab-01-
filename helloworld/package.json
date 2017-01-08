@@ -5,7 +5,7 @@
   "main": "hello.js",
   "scripts": {
     "lint": "./node_modules/eslint/bin/eslint.js .",
-    "test": "./node_modules/mocha/bin/mocha.js ."
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "author": "thomasxmartinez@gmail.com",
   "license": "ISC",
