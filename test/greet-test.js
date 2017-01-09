@@ -10,6 +10,6 @@ describe('testing greet.js', function(){
     expect(greet('world')).to.equal('Hello, world');
   });
   it('should return null', function(){
-    expect(greet()).to.equal(null);
+    expect(greet(4)).to.equal(null);
   });
 });
