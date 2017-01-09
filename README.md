@@ -1,6 +1,11 @@
 401 JS -- Class 01 Lab modular patterns
 ===
 
+## Project Info
+  * Created greet function with one argument
+  * Created arithmatic methods add and subtract two numbers
+  * Created tests for all functions and methods
+
 ## Submision Instructions
   * Work in a fork of this repository
   * Work in a branch on your fork
@@ -8,7 +13,7 @@
   * Submit a pull request to this repository
   * Submit a link to your pull request on canvas
   * Submit a question, observation, and how long you spent on canvas  
-  
+
 ## Learning Objectives  
 * Students will be able to set up a directory for creating an npm package
 * Students will be able to create and use CommonJS modules
@@ -26,18 +31,18 @@ Your lab directory must include
 * **.gitignore** -- with a robust gitignore
 * **.eslintrc** -- with the class .eslintrc file
 * **.eslintignore** -- with the class .eslintignore
-* **.package.json** -- with all dependencies and dev-dependencies 
+* **.package.json** -- with all dependencies and dev-dependencies
 * **lib/** -- a lib direcotry for holding your modules
-* **test/** -- a test directory for holding your unit tests 
- 
+* **test/** -- a test directory for holding your unit tests
+
 #### Feature Tasks  
 * Create a nodejs module named greet.js that exports a single function
- * The greet function should have a single paramiter name that should expect a string 
- * The greet function should return the input name concatinated with "Hello, " 
+ * The greet function should have a single paramiter name that should expect a string
+ * The greet function should return the input name concatinated with "Hello, "
  * The greet function should return null if the input is not a string
 * Creeate a nodejs module named arithmetic
  * The arithmetic.js module should have `add` and `sub` methods
- * `add` should have to params that should expect a number, it should return the sum of the to numbers 
+ * `add` should have to params that should expect a number, it should return the sum of the to numbers
  * `sub` should have to params that should expect a number, it should return the first argument minus the second argument
  * decide on an expected behavior for non number inputs
 
@@ -47,7 +52,7 @@ Your lab directory must include
 * Write test for the `add` and `subtract` methods on the arithmetic module
  * Write a test that ensures the functions work as you expect with number inputs
  * Write a test that ensures the functions work as expected with non number inputs
- 
+
 ####  Documentation  
 * Write a description of your project in your README.md
 
